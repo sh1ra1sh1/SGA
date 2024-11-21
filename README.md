@@ -20,13 +20,13 @@ python main.py
 
 $N$はいじれるが、`/assets/src/main.py`でハイパーパラメータの設定で遺伝子数を変更する必要がある．
 
-$$`
+```math
 \begin{align}
 	f\left( \boldsymbol{x} \right)
 	&= An + \sum^{n}_{i = 1}
 	\left( x^{2}_{i} - A \cos\left(2\pi x_{i}\right) \right)
 \end{align}
-`$$
+```
 
 このとき，$`A = 10, x_{i} \in \left[ -5.12, 5.12 \right]`$である．
 
